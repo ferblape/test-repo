@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: ferblape/merged-to-staging-action
+    - uses: ferblape/merged-to-staging-action@v1.0.0

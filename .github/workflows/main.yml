@@ -1,4 +1,4 @@
-name: CI
+name: Check merged to staging
 
 on: [push]
 

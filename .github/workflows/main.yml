@@ -1,11 +1,9 @@
 name: Check merged to staging
-
-on: [push]
-
+on:
+  - pull_request
 jobs:
-  build:
+  triage:
     runs-on: ubuntu-latest
-
     steps:
     - uses: ferblape/merged-to-staging-action@v1.0.0
       with:
